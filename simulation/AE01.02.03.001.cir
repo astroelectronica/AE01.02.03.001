@@ -1,0 +1,11 @@
+.title KiCad schematic
+.include "models/BD53E29G.lib"
+.include "models/C2012C0G2W101J060AA_p.mod"
+.include "models/C2012JB2E102M085AA_p.mod"
+.include "models/C2012X7R2A104M125AA_p.mod"
+XU1 /OUT /IN 0 /CT NC_01 BD53E29G
+XU2 /IN 0 C2012X7R2A104M125AA_p
+XU3 /CT 0 C2012C0G2W101J060AA_p
+XU4 /OUT 0 C2012JB2E102M085AA_p
+V1 /IN 0 {VIN}
+.end

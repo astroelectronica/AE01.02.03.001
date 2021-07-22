@@ -1,0 +1,5 @@
+*trasient response
+.include ../AE01.02.03.001.cir
+.param VIN=5
+.dc V1 {VIN} 0 0.001
+
